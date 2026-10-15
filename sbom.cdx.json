@@ -1,0 +1,180 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:9b72b8c9-e285-5676-ab72-3d689f31dea1",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T06:27:16Z",
+  "component": {
+   "type": "application",
+   "name": "PYNTCLOUD",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/PYNTCLOUD@83b357604d34",
+   "purl": "pkg:generic/anticloud/PYNTCLOUD@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "numpy",
+   "version": "unspecified",
+   "purl": "pkg:pypi/numpy",
+   "bom-ref": "pypi/numpy@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "scipy",
+   "version": ">=1.6.0",
+   "purl": "pkg:pypi/scipy@1.6.0",
+   "bom-ref": "pypi/scipy@>=1.6.0"
+  },
+  {
+   "type": "library",
+   "name": "pandas",
+   "version": "unspecified",
+   "purl": "pkg:pypi/pandas",
+   "bom-ref": "pypi/pandas@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "conda-forge",
+   "version": "unspecified",
+   "purl": "pkg:generic/conda-forge",
+   "bom-ref": "conda/conda-forge@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "defaults",
+   "version": "unspecified",
+   "purl": "pkg:generic/defaults",
+   "bom-ref": "conda/defaults@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "numpy",
+   "version": "unspecified",
+   "purl": "pkg:generic/numpy",
+   "bom-ref": "conda/numpy@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "scipy",
+   "version": "unspecified",
+   "purl": "pkg:generic/scipy",
+   "bom-ref": "conda/scipy@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "matplotlib",
+   "version": "unspecified",
+   "purl": "pkg:generic/matplotlib",
+   "bom-ref": "conda/matplotlib@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pandas",
+   "version": "unspecified",
+   "purl": "pkg:generic/pandas",
+   "bom-ref": "conda/pandas@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "notebook",
+   "version": "unspecified",
+   "purl": "pkg:generic/notebook",
+   "bom-ref": "conda/notebook@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "ipywidgets",
+   "version": "unspecified",
+   "purl": "pkg:generic/ipywidgets",
+   "bom-ref": "conda/ipywidgets@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "ipython",
+   "version": "unspecified",
+   "purl": "pkg:generic/ipython",
+   "bom-ref": "conda/ipython@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "h5py",
+   "version": "unspecified",
+   "purl": "pkg:generic/h5py",
+   "bom-ref": "conda/h5py@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "numba",
+   "version": "unspecified",
+   "purl": "pkg:generic/numba",
+   "bom-ref": "conda/numba@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pythreejs",
+   "version": "unspecified",
+   "purl": "pkg:generic/pythreejs",
+   "bom-ref": "conda/pythreejs@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pip",
+   "version": "unspecified",
+   "purl": "pkg:generic/pip",
+   "bom-ref": "conda/pip@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pylas",
+   "version": "unspecified",
+   "purl": "pkg:generic/pylas",
+   "bom-ref": "conda/pylas@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "lazrs",
+   "version": "unspecified",
+   "purl": "pkg:generic/lazrs",
+   "bom-ref": "conda/lazrs@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "appmode",
+   "version": "unspecified",
+   "purl": "pkg:generic/appmode",
+   "bom-ref": "conda/appmode@unspecified"
+  }
+ ],
+ "source": {
+  "git": {
+   "head": null,
+   "url": null,
+   "sha_unverified": true,
+   "note": "contamination removed; resolve via GitHub API before quoting"
+  }
+ }
+}
